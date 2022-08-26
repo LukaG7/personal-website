@@ -1,14 +1,40 @@
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFFAF7;
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-style: solid;
+    justify-content: space-between;
+    align-items: center;    
+    text-decoration: none;
+
 }
 
 .header-h1 {
-    font-size: 1.6rem;
+    font-size: 2.5rem;
+    -webkit-text-stroke: 1px #FFFAF7;
+    margin-top: 0;
+
 }
+
+.hero-img {
+    width: 60%;
+    height: 25%;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 0;
+}
+.hero {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proj-img {
+    width: 70%;
+    height: 35%;
+}
+
